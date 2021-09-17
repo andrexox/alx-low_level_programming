@@ -6,7 +6,7 @@
  * main - prints addition of two positive numbers
  * @argc: argument counter
  * @argv: numbers to add
- * 
+ *
  * Return: 0 if successful, 1 if one of the
  * number contains symbols that are not digit
  */
