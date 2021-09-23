@@ -1,9 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 
-#include "holberton.h"
-#include <stdlib.h>
-
 /**
  * array_range - Creates an array of integers ordered
  * from min to max, inclusive.
