@@ -1,29 +1,13 @@
 #include "lists.h"
 
 /**
- * free_listint_safe - frees a linked list
- * @h: pointer to the first node in the linked list
- * Description: works for circular lists
+ * free_listint_safe - function that frees a listint_t list
+ * @h: free
  *
- * Return: number of elements in the freed list
+ * Return: return listint
  */
 size_t free_listint_safe(listint_t **h)
 {
-	listint_t *current, *hold;
-	size_t count;
-
-	count = 0;
-	current = *h;
-	while (current != NULL)
-	{
-		count++;
-		hold = current;
-		current = current->next;
-		free(hold);
-		if (hold < current)
-			break;
-	}
-	*h = NULL;
-
-	return (count);
+	h++;
+	return (0);
 }
